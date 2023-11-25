@@ -190,7 +190,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .difficulty-lvl button{
-    background-color: #03fc4e;
+    background-color: #04cc40;
     width: 100px;
 }
 
@@ -199,7 +199,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .difficulty-lvl button.active {
-    background-color: #f00; /* Set your active button style here */
+    background-color: #d60707; /* Set your active button style here */
     color: #fff;
 }
 
@@ -218,6 +218,15 @@ input[type='number']::-webkit-outer-spin-button {
   font-size: 14px;
 }
 
+.site-footer a{
+  color: #04cc40;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.site-footer a:hover{
+  color: #ff355e;
+  text-decoration: underline;
+}
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
   /* Adjustments for smaller screens */
